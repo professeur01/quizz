@@ -6,5 +6,6 @@ form.addEventListener("submit", (e) => {
     for (let i = 1; i < 6; i++) {
         TabResultValue.push(document.querySelector(`input[name="q${1}"]:checked`).value)
         console.log(TabResultValue);
+        TabResultValue = [];
     }
 })
